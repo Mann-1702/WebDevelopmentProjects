@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="style2.css" type="text/css">
+    <link rel="stylesheet" href="utils2.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+</head>
+<body>
+    <header class="container">
+        <nav class="flex space-between">
+            <div class="left flex items-center">
+                <img src="logo.png" alt="MyMart Logo">
+                <ul class="flex items-center justify-center uppercase bold">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="menp.html">Men</a></li>
+                    <li><a href="womenp.html">Women</a></li>
+                    <li><a href="kidsp.html">Kids</a></li>
+                    <li><a href="accessoriesp.html">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="right flex items-center uppercase bold">
+                <input type="text" class="search" placeholder="Search for products, accessories and more">
+                <div class="profile m2"><a href="profilep.php">Profile</a></div>
+                <div class="wishlist m2"><a href="wishlistp.html">WishList</a></div>
+                <div class="cart m2"><a href="cartp.html">Cart</a></div>
+            </div>
+        </nav>
+    </header>
+    <!-- <section class="container section1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem id ipsam ullam vero repellendus earum temporibus velit, consequuntur unde assumenda illo quis voluptatem blanditiis! Tempora illum aliquam quidem perferendis labore! Ex quas cupiditate culpa, quae, laborum nihil quisquam in, praesentium iste adipisci quia mollitia eum non perferendis maiores itaque quo!
+    </section> -->
+    <section id="hero" class="container section1">
+        <h1 style="text-align:center ;">Biggest Offer Of The Season, Super Deals<br> On All Products!</h1>
+        <img id="img1" src="Offer.png" alt="" width="50%" height="250px">
+    </section>
+
+    <section id="uspashirt" class="section-p1">
+
+        <div class="shirt">
+            <a href="uspa.html"><img src="Uspa.png" alt="" width="200px" height="200px"></a>
+            <h6 style="margin-bottom: 0px;">U.S.Polo Assn. Shirt</h6>
+            <h6 style="text-decoration: line-through; margin-top: 0px; color: rgb(248, 124, 124);border-radius: 4px 0 0 4px;">Rs.4000</h6><h6 style="margin-top: 0px; color: rgb(86, 86, 252);border-radius: 0 4px 4px 0;">Rs.2500</h6>
+        </div>
+
+        <div class="shirt">
+            <img src="Uspa2.png" alt="" width="200px" height="200px">
+            <h6 style="margin-bottom: 0px;">U.S.Polo Assn. Shirt</h6>
+            <h6 style="text-decoration: line-through; margin-top: 0px; color: rgb(248, 124, 124);border-radius: 4px 0 0 4px;">Rs.5000</h6><h6 style="margin-top: 0px; color: rgb(86, 86, 252);border-radius: 0 4px 4px 0;">Rs.3500</h6>
+        </div>
+
+        <div class="shirt">
+            <img src="Uspa3.png" alt="" width="200px" height="200px">
+            <h6 style="margin-bottom: 0px;">U.S.Polo Assn. Shirt</h6>
+            <h6 style="text-decoration: line-through; margin-top: 0px; color: rgb(248, 124, 124);border-radius: 4px 0 0 4px;">Rs.4000</h6><h6 style="margin-top: 0px; color: rgb(86, 86, 252);border-radius: 0 4px 4px 0;">Rs.3000</h6>
+        </div>
+
+        <div class="shirt">
+            <img src="Uspa4.png" alt="" width="200px" height="200px">
+            <h6 style="margin-bottom: 0px;">U.S.Polo Assn. Shirt</h6>
+            <h6 style="text-decoration: line-through; margin-top: 0px; color: rgb(248, 124, 124);border-radius: 4px 0 0 4px;">Rs.4000</h6><h6 style="margin-top: 0px; color: rgb(86, 86, 252);border-radius: 0 4px 4px 0;">Rs.2000</h6>
+        </div>
+
+        <div class="shirt">
+            <img src="Uspa5.png" alt="" width="200px" height="200px">
+            <h6 style="margin-bottom: 0px;">U.S.Polo Assn. Shirt</h6>
+            <h6 style="text-decoration: line-through; margin-top: 0px; color: rgb(248, 124, 124);border-radius: 4px 0 0 4px;">Rs.3000</h6><h6 style="margin-top: 0px; color: rgb(86, 86, 252);border-radius: 0 4px 4px 0;">Rs.1500</h6>
+        </div>
+    </section>
+
+
+    <section id="adidas" class="section-p2">
+        <div class="shoes">
+            <a href="adidas.html"><img src="Adidas.png" alt="" width="200px" height="200px"></a>
+            <h6 style="margin-bottom: 0px;">Adidas Shoes</h6><br>
+            <h6 style="text-decoration: line-through; margin-top: 0px; color: rgb(248, 124, 124); border-radius: 4px 0 0 4px;">Rs.6000</h6><h6 style="margin-top: 0px; color: rgb(86, 86, 252); border-radius: 0 4px 4px 0;">Rs.3000</h6>
+        </div>
+
+        <div class="shoes">
+            <img src="Adidas2.png" alt="" width="200px" height="200px">
+            <h6 style="margin-bottom: 0px;">Adidas Shoes</h6><br>
+            <h6 style="text-decoration: line-through; margin-top: 0px; color: rgb(248, 124, 124); border-radius: 4px 0 0 4px;">Rs.5000</h6><h6 style="margin-top: 0px; color: rgb(86, 86, 252); border-radius: 0 4px 4px 0;">Rs.3500</h6>
+        </div>
+
+        </div><div class="shoes">
+            <img src="Adidas3.png" alt="" width="200px" height="200px">
+            <h6 style="margin-bottom: 0px;">Adidas Shoes</h6><br>
+            <h6 style="text-decoration: line-through; margin-top: 0px; color: rgb(248, 124, 124); border-radius: 4px 0 0 4px;">Rs.3000</h6><h6 style="margin-top: 0px; color: rgb(86, 86, 252); border-radius: 0 4px 4px 0;">Rs.1500</h6>
+        </div>
+
+        <div class="shoes">
+            <img src="Adidas4.png" alt="" width="200px" height="200px">
+            <h6 style="margin-bottom: 0px;">Adidas Shoes</h6><br>
+            <h6 style="text-decoration: line-through; margin-top: 0px; color: rgb(248, 124, 124); border-radius: 4px 0 0 4px;">Rs.3500</h6><h6 style="margin-top: 0px; color: rgb(86, 86, 252); border-radius: 0 4px 4px 0;">Rs.2500</h6>
+        </div>
+
+        <div class="shoes">
+            <img src="Adidas5.png" alt="" width="200px" height="200px">
+            <h6 style="margin-bottom: 0px;">Adidas Shoes</h6><br>
+            <h6 style="text-decoration: line-through; margin-top: 0px; color: rgb(248, 124, 124); border-radius: 4px 0 0 4px;">Rs.5000</h6><h6 style="margin-top: 0px; color: rgb(86, 86, 252); border-radius: 0 4px 4px 0;">Rs.2500</h6>
+        </div>
+    </section>
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="logo.png" alt="" width="150px" height="80px" style="border-radius:3px ; margin-bottom:15px">
+            <h4 style="font-size: 30px; margin-bottom:10px">Contact</h4>
+            <p style="font-size: 20px;"><strong>Address:</strong> Anand,Gujarat,India</p>
+            <p style="font-size: 20px;"><strong>Phone No.:</strong> 9876543210</p>
+        </div>
+
+        <div class="col">
+            <h4 style="font-size: 30px; margin-bottom:10px">About</h4>
+            <a href="#" style="color:rgb(83, 83, 83); font-size: 20px;">About Us</a>
+            <a href="#" style="color:rgb(83, 83, 83); font-size: 20px;">Privacy Policy</a>
+            <a href="#" style="color:rgb(83, 83, 83); font-size: 20px;">Contact</a>
+        </div>
+        
+        <div class="copyright">
+            <p style="font-size: 20px;">© <?php $d=date("Y"); echo "$d";?> MyMart All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
